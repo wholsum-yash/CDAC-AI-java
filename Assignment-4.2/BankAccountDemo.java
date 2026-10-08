@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
 class BankAccount {
-    private String accountNumber;
-    private String customerName;
-    private double balance;
+     String accountNumber;
+     String customerName;
+     double balance;
 
-    private static String bankName = "Central Bank";
-    private static int accountCount = 0;
+     static String bankName = "Central Bank";
+     static int accountCount = 0;
 
     public BankAccount(Scanner sc) {
         read(sc);

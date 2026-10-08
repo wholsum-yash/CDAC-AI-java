@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
 class MovieTicket {
-    private String customerName;
-    private String movieName;
-    private int numberOfTickets;
-    private double ticketPrice;
-    private double totalAmount;
+     String customerName;
+     String movieName;
+     int numberOfTickets;
+     double ticketPrice;
+     double totalAmount;
 
-    private static int bookingCount = 0;
-    private static final String THEATRE_NAME = "PVR Cinemas";
+     static int bookingCount = 0;
+     static final String THEATRE_NAME = "PVR Cinemas";
 
     public MovieTicket(Scanner sc) {
         read(sc);

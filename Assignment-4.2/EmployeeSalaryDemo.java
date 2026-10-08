@@ -1,15 +1,15 @@
 import java.util.Scanner;
 
 class Employee {
-    private int employeeId;
-    private String employeeName;
-    private double basicSalary;
-    private double hra;
-    private double da;
-    private double grossSalary;
+     int employeeId;
+     String employeeName;
+     double basicSalary;
+     double hra;
+     double da;
+     double grossSalary;
 
-    private static int employeeCount = 0;
-    private static final String COMPANY_NAME = "Tech Solutions Pvt. Ltd.";
+     static int employeeCount = 0;
+     static final String COMPANY_NAME = "Tech Solutions Pvt. Ltd.";
 
     public Employee(Scanner sc) {
         read(sc);

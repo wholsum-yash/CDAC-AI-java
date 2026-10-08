@@ -1,15 +1,15 @@
 import java.util.Scanner;
 
 class ElectricityBill {
-    private String consumerNumber;
-    private String consumerName;
-    private int units;
-    private double billAmount;
+     String consumerNumber;
+     String consumerName;
+     int units;
+     double billAmount;
 
-    private static int consumerCount = 0;
-    private static final double FIRST_100_RATE = 2.0;
-    private static final double NEXT_100_RATE = 3.0;
-    private static final double ABOVE_200_RATE = 5.0;
+     static int consumerCount = 0;
+     static final double FIRST_100_RATE = 2.0;
+     static final double NEXT_100_RATE = 3.0;
+     static final double ABOVE_200_RATE = 5.0;
 
     public ElectricityBill(Scanner sc) {
         read(sc);

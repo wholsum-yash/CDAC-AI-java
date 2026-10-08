@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
 class Product {
-    private int productId;
-    private String productName;
-    private double price;
-    private int quantity;
-    private double totalBill;
+     int productId;
+     String productName;
+     double price;
+     int quantity;
+     double totalBill;
 
-    private static int productCount = 0;
-    private static final String STORE_NAME = "SuperMart";
+     static int productCount = 0;
+     static final String STORE_NAME = "SuperMart";
 
     public Product(Scanner sc) {
         read(sc);
